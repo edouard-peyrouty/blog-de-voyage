@@ -1,0 +1,144 @@
+/* style soécifique à la page singapour */
+
+/* couleurs de la page, de l'entête, de la barre de navigation et du bas de page */
+body {
+    background-color: #eedfdf;
+}
+header, footer {
+    background-color: rgb(190, 96, 96);
+}
+nav, header li, footer a {
+    background-color: rgb(211, 146, 146);
+}
+/* animation de survol */
+header li:hover, footer a:hover {
+    background-color: rgb(193, 133, 133);
+}
+
+
+/*forme des rubriques*/
+.rubrique{
+    border-radius: 5px;
+}
+
+/* CSS pour la partie à l'intérieur de la balise <main> */
+p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+main h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(173, 63, 63);
+}
+
+main h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Style de la section de présentation */
+#presentation {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#client{
+    width: 800px;
+}
+
+/* Style de la section des lieux touristiques à visiter */
+#lieux {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+#lieux img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Style de la section souvenirs */
+#souvenirs {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 150px;
+    border: 1px solid #ccc;
+
+}
+
+#souvenirs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#souvenir_1 {
+    width: 45%;
+    height: auto;
+}
+
+#map1{
+    text-align: center;
+    width: 50%;
+    border-radius: 50%;
+    border: 4px solid rgb(112, 177, 112);
+    margin-left: 25%;
+}
+
+h2{
+    text-align: center;
+}
+
+#lieu1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+
+}
+#lieu2{
+    display: flex;
+    justify-content: space-around;
+}
+#lieu3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#parc_visite{
+    width: 500px;
+    height: 500px;
+}
+#statue_visite{
+    width: 500px;
+    height: 500px;
+}
+#jardin_visite{
+    width: 500px;
+    height: 500px;
+}
+
+.barre_sep{
+    background-color: #880d22;
+    width: 80%;
+    height: 4px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+div{
+    margin: 12px;
+}

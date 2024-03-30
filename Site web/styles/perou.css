@@ -1,0 +1,135 @@
+/* style spécifique à la page perou */
+
+/* couleur de la page, de l'entête, de la barre de navigation et du bas de page*/
+body{
+    color: #611033;
+    background-color: #ccdacd;
+}
+header, footer{
+    background-color: #b3697b;
+}
+/* animation de survol*/
+nav,  header li, footer a {
+    background-color: #c88a99;
+}
+
+header li:hover, footer a:hover {
+    background-color: #a16775;
+}
+
+/* mise en forme des titres h2*/
+
+main p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+main h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+header img{
+    width: 300px;
+}
+
+img{
+    width: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+#visite{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#visite_1 {
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+#presentation{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#presentation img{
+    margin-right: 20px;
+}
+
+/* Style de la section des lieux touristiques à visiter */
+#lieux {
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+h2 {    
+    margin-bottom: 10px;
+}
+
+#lieux h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#lieux p {
+    margin: 10px 0;
+}
+
+#lieux img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Style de la section souvenirs */
+#souvenirs {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 250px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#souvenirs p {
+    text-align: center;
+}
+
+#souvenirs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#souvenirs h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#souvenirs p {
+    margin: 10px 0;
+}
+
+#map1{
+    margin-left: 28%;
+    border-radius: 50%;
+    border: 4px solid rgb(112, 177, 112);
+}

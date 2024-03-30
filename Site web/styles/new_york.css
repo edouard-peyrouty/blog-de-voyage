@@ -1,0 +1,139 @@
+/* style spécifique à la page new york */
+
+/* couleur de la page, de l'entête, de la barre de navigation et du bas de page*/
+body {
+    background-color: #FFEEEE;
+}
+header, footer{
+    background-color: rgb(204, 58, 58);
+}
+nav, header li, footer a{
+    background-color: rgb(224, 94, 94);
+}
+/* animation de survol*/
+header li:hover, footer a:hover { 
+    background-color: rgb(230, 62, 62);;
+}
+
+main img{
+    margin: 10px;
+    width: 300px;
+}
+
+main h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(204, 58, 58);
+}
+
+main {
+    background-color: #eedfdf;
+}
+
+main p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+main h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/*style des rubriques*/
+.rubrique{
+    background-color: rgb(77, 149, 190);
+}
+
+/*style presentation */
+#presentation {
+    padding: 20px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#presentation p{
+    margin: 10px;
+}
+
+#presentation h2 {
+    margin-bottom: 10px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+#presentation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#presentation li {
+    margin: 10px 0;
+}
+
+/*Barre séparation style */
+.barre_sep{
+    background-color: rgb(204, 58, 58);
+    width: 80%;
+    height: 4px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Style lieux visite*/
+#lieux {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#lieux h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#lieux p {
+    margin: 10px 0;
+}
+
+.container , #souvenirs{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+
+/*Stylisation texte */
+.lieu_txt{
+    text-align: center;
+}
+
+.lieu_txt h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.lieu_txt p {
+    font-size: 29px;
+    text-align: center;
+}
+
+#lieux img{
+    border-radius: 25px 0px 25px 0px;
+}
+
+/*map ronde*/
+#map1{
+    margin-left: 28%;
+    border-radius: 50%;
+    border: 4px solid rgb(112, 177, 112);
+    margin-top: 20px;
+}

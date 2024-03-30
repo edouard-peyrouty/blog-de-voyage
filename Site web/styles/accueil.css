@@ -1,0 +1,85 @@
+/* style spécifique à la page d'accueil */
+
+/* couleurs de l'entête, de la barre de navigation et du bas de page */
+header, footer {
+    background-color: darkcyan;
+}
+nav, li, footer a {
+    background-color: rgb(116, 181, 172);
+}
+/* animation de survol */
+li:hover, footer a:hover {
+    background-color: rgb(77, 130, 123);
+}
+
+/*style des titres de rubriques de la page*/
+h2{
+    text-align: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+
+/* rubriques présentation */
+/*placement horizontal des articles */
+#presentations{
+    display: flex;
+}
+/*style de chaque article*/
+#presentations article{
+    border: solid 2px black;
+    max-width: 30%;
+    padding: 20px 40px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+/* animation de survol */
+#presentations article:hover {
+    background-color: rgb(57, 61, 65);
+    color: rgb(194, 183, 183);
+    padding: 20px 45px;
+
+}
+/* images */
+#presentations img {
+    width: 200px;
+    box-shadow: 0 0 10px black;
+}
+
+/* rubrique sur les voyages */
+#voyages{
+    /* positionnement des éléments */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* marges extérieurs */
+    margin: 0 10%;
+}
+/* carte */
+#voyages img{
+    margin: 10px;
+    border-radius: 35px;
+}
+/* classement des destinations */
+#voyages li{
+    list-style: none;
+    margin: 15px 0;
+    border: solid 1px black;
+    background-color: blanchedalmond;
+    padding-bottom: 20px;
+    padding: 0 10px 15px 10px;
+    text-align: center;
+}
+/*image de décoration du 1er élément de la liste*/
+li#top1 {
+    list-style-image: url(../images/accueil/top1.jpg);
+}
+/*image de décoration du 2e élément de la liste*/
+li#top2 {
+    list-style-image: url(../images/accueil/top2.jpg);
+}
+/*image de décoration du 3e élément de la liste*/
+li#top3 {
+    list-style-image: url(../images/accueil/top3.jpg);
+}
